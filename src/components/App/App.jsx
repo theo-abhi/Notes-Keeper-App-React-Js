@@ -30,7 +30,7 @@ function App() {
     });
   }
 
-  function deleteItem(id) {
+  function deleteNote(id) {
     setNotes((prevNotes) => {
       return prevNotes.filter((note) => note.key !== id);
     });
@@ -46,7 +46,7 @@ function App() {
           id={noteItem.key}
           title={noteItem.title}
           content={noteItem.content}
-          onDelete={deleteItem}
+          onDelete={deleteNote}
         />
       ))}
       <Footer />
