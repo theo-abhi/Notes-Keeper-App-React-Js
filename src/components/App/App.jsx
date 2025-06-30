@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 import Note from "../Note/Note";
 import Footer from "../Footer/Footer";
 
-import CreateArea from "../CreateArea/CreateArea2";
+import CreateArea from "../CreateArea/CreateArea";
 
 function App() {
   const [notes, setNotes] = useState([]);
